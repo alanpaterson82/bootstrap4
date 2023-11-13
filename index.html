@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width>, initial-scale=1.0" />
-    <title>Whisky Drop | Taste a new whisky every month</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/17df931f7b.js" crossorigin="anonymous"></script>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Whiskey Drop | Taste a new whiskey every month</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css" type="text/css" />
 </head>
 
-  <body>
+<body>
     <!-- Nav -->
     <nav class="navbar navbar-light navbar-expand-sm bg-light">
         <a href="/" class="navbar-brand">
@@ -44,19 +45,22 @@
         </div>
         <!--</div>-->
     </nav>
-    <article class="container mt-3">
-        <div class="row d-none d-sm-block">
-            <div class="col-12">
-                <div class="alert alert-warning">
-                   <strong>Sale Now On!</strong> We've got a sale on. Get a 12-month subscription for the price of 6! <a href="">See here for details!</a>
-                </div> 
-            </div>
-        </div>
+    <!--<div class="container alert-container">-->
+    <!--    <div class="row d-none d-sm-block">-->
+    <!--        <div class="col-12">-->
+    <!--            <div class="alert alert-warning">-->
+    <!--               <strong>Sale Now On!</strong> We've got a sale on. Get a 12-month subscription for the price of 6! <a href="">See here for details!</a>-->
+    <!--            </div>--> 
+    <!--        </div>-->
+    <!--    </div>-->
+    <!--</div>-->
+        <div class="container-fluid callout-container">
         <!-- Callout -->
         <div class="row">
             <div class="col-12">                
                 <section class="callout jumbotron text-center">
-                    <h1>The finest whiskys delivered to your doorstep.</h1>
+                    <h1 class="jumbotron-header">The finest whiskys delivered to your doorstep.</h1>
+                    <hr>
                     <p class="lead">Sign up today to start receiving the world's best whiskys every month.
                         <s class="d-none d-sm-inline">£19.99</s> 
                         <span class="d-inline d-sm-none"><br></span>
@@ -67,9 +71,10 @@
             </div>
         </div>
         <!-- Callout -->
-        <hr>
+    </div>
 
         <!-- Quotes -->
+        <div class="container quotes-container">
         <section class="quotes">
             <div class="row">
                 <div class="col-12 my-5">
@@ -107,8 +112,10 @@
             </div>    
         </section>
         <!-- /.quotes-->
-        <hr>
+    </div>
+
         <!-- Features -->
+        <div class="features-container">
         <section class="features">
             <div class="row">
                 <div class="col-12 my-5">
@@ -147,7 +154,7 @@
             </div>    
         </section>
         <!-- /.features -->
-    </article>
+    </div>
 
     <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
             <div class="modal-dialog" role="document">
@@ -180,10 +187,9 @@
         </div>
       </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
-</body>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
 
 </html>
